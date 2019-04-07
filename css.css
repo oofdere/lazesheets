@@ -1,0 +1,36 @@
+/* Welcome to css.css */
+/* a cheatsheet by oofdere, for oofdere */
+/* requires (basic) html know-ledge (duh) */
+
+/* basic syntax */
+selector {
+    property: value;
+    property: value;
+}
+
+/* the selector is how css knows what to style how */
+/* there are multiple types */
+/* listed in order of significance, LTH */
+:root {
+    /* declerations in here apply to everything on the page */
+}
+
+element {
+    /* this one points to all instances of an html element in a page */
+    /* in this case, <element> to </element> */
+}
+
+.class  {
+    /* this one points to all html elements with a specific class */
+    /* elements can have multiple classes, space seperated */
+    /* e.g. <element class="class class2 class3"> to </element> */
+}
+
+#id {
+    /* this one points to any html element with a specific id */
+    /* an id *should* only be used once */
+    /* in this case, <element id="id"> to </element> */
+}
+
+/* more selectors available at
+    https://www.w3schools.com/cssref/css_selectors.asp */
