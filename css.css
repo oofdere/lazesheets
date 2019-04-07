@@ -13,6 +13,13 @@ selector {
 /* listed in order of significance, LTH */
 :root {
     /* declerations in here apply to everything on the page */
+
+    /* declaring variables is reccomended here so they apply across the document */
+    --variable: value;
+    /* and to use the variable */
+    property: var(--variable);
+
+    
 }
 
 element {
