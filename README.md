@@ -1,0 +1,2 @@
+# lazesheets
+cheatsheets but lazy
