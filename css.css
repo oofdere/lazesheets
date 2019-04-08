@@ -19,7 +19,7 @@ selector {
     /* and to use the variable */
     property: var(--variable);
 
-    
+
 }
 
 element {
@@ -41,3 +41,19 @@ element {
 
 /* more selectors available at
     https://www.w3schools.com/cssref/css_selectors.asp */
+
+/* Properties */
+general {
+    width: 0px 0%;
+    height: 0px 0%;
+    
+    color: #000000; /* rgb hex */
+    background-color: #000000;
+}
+
+text {
+    text-align: center left right justify;
+    
+    /* changes text case */
+    text-transform: lowercase uppercase capitalize initial;
+}
