@@ -5,6 +5,9 @@ cheatsheets but lazy
  - [HTML](html.html)
  - [CSS](css.css)
 
+## Web Back-end
+ - [Ruby](rb.rb)
+
 ## Scripting
  - [Batch Scripting](bat.bat)
  - [PowerShell](ps1.ps1)
