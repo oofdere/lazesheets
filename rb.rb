@@ -1,6 +1,20 @@
 # Welcome to rb.rb
 # a cheatsheet by oofdere, for oofdere
 
+
+#Variables
+name = value # declare variable
+name = name + value # must reassign to change value
+
+name += value # name = name + value
+name -= value # name = name - value
+name *= value # name = name * value
+name /= value # name = name / value
+name += value # name = name + value
+
+is_even = num % 2 == 0 # check if var num is even
+
+
 # Operands
 +  # addition 
 -  # subtraction
@@ -14,6 +28,7 @@
 # ! Having only whole numbers in a problem will truncate its output into a dingle digit.
 # ! e.g. 1 / 3 = 0 but 1 / 3.0 = 0.3333333333333333 (float)
 
+
 # Comparators (returns true or false)
 == # is (=) equal to (=)
 != # is not (!) equal to (=)
@@ -22,11 +37,20 @@
 >= # greater than or equal to
 <= # less than or equal to
 
+
 # Logic gates / booleans
 !  # NOT (one input; flips bool/logic)
 && # AND
 || # OR
 
+
 # Print to the terminal:
-puts "string"
-puts 1
+print "string\n" # no formatting, raw output. \n makes a newline
+puts "string" # prints with newline
+p "string" # more verbose print; would output "string" (with quotes)
+
+
+# String operations w/ output:
+p "string".length # 6
+p "string"[0] # "s"
+p "Hello, " + "World!" # "Hello, World!"
