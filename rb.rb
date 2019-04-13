@@ -57,6 +57,7 @@ p "Hello, " + "World!" # "Hello, World!"
 
 
 ## Methods/Functions
+# * NOTE: Ruby technically does not have functions, but I'm used to calling them functions.
 def method # Defines a method with the name method.
     # Code goes here, for example:
     puts "Hello, World!"
@@ -68,3 +69,11 @@ def date_out(month, day, year)
     puts "Today is " + month + " " + day + ", " + year + "."
 end
 date_out("January", "1st", "1970") # Outputs "Today is January 1st, 1970."
+
+# Calculate the mean of two numbers (mostly stolen from App Academy)
+def mean(num1, num2)
+    sum = num1 + num2
+    avg = sum / 2.0 # float so output isn't truncated to whole
+    return avg # returns the result
+end
+puts mean(5, 10) # outputs 7.5
