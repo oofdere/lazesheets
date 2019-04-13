@@ -10,7 +10,6 @@ name += value # name = name + value
 name -= value # name = name - value
 name *= value # name = name * value
 name /= value # name = name / value
-name += value # name = name + value
 
 is_even = num % 2 == 0 # check if var num is even
 
@@ -44,6 +43,41 @@ is_even = num % 2 == 0 # check if var num is even
 || # OR
 
 
+## Conditionals
+#! Having 'break' in a conditional or loop will kill the loop/conditional.
+#! Having 'next' in a conditional or loop will skip the rest of the current iteration.
+if condition == true
+    puts true
+else
+    puts false
+end
+
+# Example (method to check if numbers are positive or negative)
+def pos_or_neg(num)
+    if num > 0
+        puts "positive"
+    elsif num == 0
+        puts "neutral"
+    else
+        puts "negative"
+    end
+end
+
+
+## Loops
+#! Having 'break' in a conditional or loop will kill the loop/conditional.
+#! Having 'next' in a conditional or loop will skip the rest of the current iteration.
+while condition == true
+    code()
+end
+
+# Iterate 10 times with a while loop
+i = 1
+while i <= 10
+    puts i
+    i += 1
+end
+
 ## Print to the terminal:
 print "string\n" # no formatting, raw output. \n makes a newline
 puts "string" # prints with newline
@@ -57,7 +91,7 @@ p "Hello, " + "World!" # "Hello, World!"
 
 
 ## Methods/Functions
-# * NOTE: Ruby technically does not have functions, but I'm used to calling them functions.
+#* NOTE: Ruby technically does not have functions, but I'm used to calling them functions.
 def method # Defines a method with the name method.
     # Code goes here, for example:
     puts "Hello, World!"
