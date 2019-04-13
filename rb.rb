@@ -2,7 +2,7 @@
 # a cheatsheet by oofdere, for oofdere
 
 
-#Variables
+## Variables
 name = value # declare variable
 name = name + value # must reassign to change value
 
@@ -15,7 +15,7 @@ name += value # name = name + value
 is_even = num % 2 == 0 # check if var num is even
 
 
-# Operands
+## Operands
 +  # addition 
 -  # subtraction
 *  # multiplication
@@ -29,7 +29,7 @@ is_even = num % 2 == 0 # check if var num is even
 # ! e.g. 1 / 3 = 0 but 1 / 3.0 = 0.3333333333333333 (float)
 
 
-# Comparators (returns true or false)
+## Comparators (returns true or false)
 == # is (=) equal to (=)
 != # is not (!) equal to (=)
 >  # greater than
@@ -38,19 +38,33 @@ is_even = num % 2 == 0 # check if var num is even
 <= # less than or equal to
 
 
-# Logic gates / booleans
+## Logic gates / booleans
 !  # NOT (one input; flips bool/logic)
 && # AND
 || # OR
 
 
-# Print to the terminal:
+## Print to the terminal:
 print "string\n" # no formatting, raw output. \n makes a newline
 puts "string" # prints with newline
 p "string" # more verbose print; would output "string" (with quotes)
 
 
-# String operations w/ output:
+## String operations w/ output:
 p "string".length # 6
 p "string"[0] # "s"
 p "Hello, " + "World!" # "Hello, World!"
+
+
+## Methods/Functions
+def method # Defines a method with the name method.
+    # Code goes here, for example:
+    puts "Hello, World!"
+end # This ends the method.
+method # Calls the method (runs the code inside it)
+
+# Example with parametres
+def date_out(month, day, year)
+    puts "Today is " + month + " " + day + ", " + year + "."
+end
+date_out("January", "1st", "1970") # Outputs "Today is January 1st, 1970."
