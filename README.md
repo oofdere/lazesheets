@@ -6,3 +6,6 @@ cheatsheets but lazy
 
 ## Web Back-end
  - [Ruby](rb.rb)
+
+## Other
+ - [Markdown](md.md)
