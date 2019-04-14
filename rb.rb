@@ -69,7 +69,6 @@ array.length
 number.even?
 
 
-
 ## Conditionals
 #! Having 'break' in a conditional or loop will kill the loop/conditional.
 #! Having 'next' in a conditional or loop will skip the rest of the current iteration.

@@ -1,9 +1,5 @@
 # Welcome to rb.rb
 ### a cheatsheet by oofdere, for oofdere
----
-```
----
-```
 
 This is normal text. Type it normally.
 ```
@@ -26,7 +22,6 @@ Or indent each line four spaces.
 ```
 
 ## Titles
----
 # Heading 1
 ```
 # Heading 1
@@ -53,7 +48,6 @@ Or indent each line four spaces.
 ```
 
 ## Quotes
----
 > Quote
 > With multiple lines
 > Woah
@@ -64,7 +58,6 @@ Or indent each line four spaces.
 ```
 
 ## Lists
----
 1. Item 1
 2. Item 2
 3. Item 3
