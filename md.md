@@ -16,10 +16,13 @@ For `inline` code, put it in backticks.
 ```
 
 For a code block, sandwich it in two layers of three backticks.
+
+Or indent each line four spaces.
 ```
-```
-For a code block, sandwich it in two layers of three backticks.
-```
+    ```
+    For a code block, sandwich it in two layers of three backticks.
+    Or indent each line four spaces.
+    ```
 ```
 
 ## Titles
