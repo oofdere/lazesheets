@@ -66,3 +66,12 @@ Or indent each line four spaces.
 2. Item 2
 3. Item 3
 ```
+
+ - Item 1
+ - Item 2
+ - Item 3
+```
+ - Item 1
+ - Item 2
+ - Item 3
+```
