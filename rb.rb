@@ -14,6 +14,27 @@ name /= value # name = name / value
 is_even = num % 2 == 0 # check if var num is even
 
 
+## Arrays
+name = ["items", "go", "into", "square", "brackets", true, 64]
+
+name2 = [
+    "You ",
+    "can ",
+    "also ",
+    "declare ",
+    "an ",
+    "array ",
+    "like ",
+    "this!"
+]
+
+#* Arrays are zero-indexed in Ruby
+name[0] # Returns the first item ("items")
+name[1] # returns the second item ("go")
+
+name << "this adds an item to the end of the array"
+name[1] = "this one changes a specific index in the array"
+
 ## Operands
 +  # addition 
 -  # subtraction
@@ -67,16 +88,28 @@ end
 ## Loops
 #! Having 'break' in a conditional or loop will kill the loop/conditional.
 #! Having 'next' in a conditional or loop will skip the rest of the current iteration.
+# While loop, runs while condition is true
 while condition == true
+    code()
+end
+# Until loop, runs while condition is false
+until condition == true
     code()
 end
 
 # Iterate 10 times with a while loop
-i = 1
-while i <= 10
+i = 0
+while i < 10
     puts i
     i += 1
 end
+# Iterate 10 times with a until loop
+i = 0
+until i >= 10
+    puts i
+    i += 1
+end
+
 
 ## Print to the terminal:
 print "string\n" # no formatting, raw output. \n makes a newline
