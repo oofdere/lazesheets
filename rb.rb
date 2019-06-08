@@ -13,6 +13,9 @@ name /= value # name = name / value
 
 is_even = num % 2 == 0 # check if var num is even
 
+# Using variables in a string:
+puts "#{varname} in strings!? That's blasphemy!"
+
 
 ## Arrays
 name = ["items", "go", "into", "square", "brackets", true, 64]
