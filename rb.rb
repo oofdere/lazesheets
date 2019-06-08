@@ -133,13 +133,13 @@ p "Hello, " + "World!" # "Hello, World!"
 
 ## Methods/Functions
 #* NOTE: Ruby technically does not have functions, but I'm used to calling them functions.
-def method # Defines a method with the name method.
+def method(arg1 = default_value, arg2, etc.) # Defines a method with the name method and arguments.
     # Code goes here, for example:
-    puts "Hello, World!"
+    puts "Hello, #{arg1} #{arg2}!"
 end # This ends the method.
 method # Calls the method (runs the code inside it)
 
-# Example with parametres
+# Example with parametres/arguments
 def date_out(month, day, year)
     puts "Today is " + month + " " + day + ", " + year + "."
 end
